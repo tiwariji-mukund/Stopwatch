@@ -53,6 +53,6 @@ function watchStop(){
 function watchReset(){
     clearInterval(timer);
     // clear the previous interval and assign the default values to the timer 
-    [seconds, minutes, hours] = [0, 0, 0, 0];
-    displayTime.innerHTML = "00:00:00.00"
+    [milliseconds, seconds, minutes, hours] = [0, 0, 0, 0];
+    displayTime.innerHTML = "00:00:00.000"
 }
